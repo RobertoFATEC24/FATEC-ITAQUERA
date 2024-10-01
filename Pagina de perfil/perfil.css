@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) and (min-width: 360px) {
+    #conteudo {
+        font: 2.3rem;
+    }
+    img{
+        height: 200px;
+    }
+    aside { /*COLUNAS LATERAIS*/
+        width: 30%;
+        padding: 1em;
+        background-color: #99a3a4
+    }
+    .left-aside {
+        order:  -1;
+    }
+    .right-aside {
+        order: 1;
+    }
+    .content {
+        flex: -1;
+        padding: 1em;
+    }
+    section {
+        margin-bottom: 1em;
+    }
+}
