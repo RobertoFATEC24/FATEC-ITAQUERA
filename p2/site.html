@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
+    <title>Loja Virtual</title>
+</head>
+<body>
+    <h1>PEÇAS ONLINE</h1>
+    <div class="container">
+        <input id="searchbar" 
+               onkeyup="search_animal()" 
+               type="text" name="Procurar" 
+               placeholder="Procurar item..">
+               <button onclick="pesquisarProdutos()">Pesquisar</button>
+               
+    <h1>Produtos</h1>
+    <section id="items"></section>
+    <h1>Carrinho</h1>
+    <section id="cart"></section>
+    <div id="total"></div>
+    <button onclick="confirmar()">Confirmar compra</button>
+
+    <script src="site.js" defer></script>
+</body>
+</html>
+
+
