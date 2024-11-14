@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07_11_2024</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="app">
+        <form id="form">
+            <div class="inputs">
+                <label for="nomePersonagem">Insira o nome do personagem</label>
+                <input type="text" name="nomePersonagem" id="nome" placeholder="Nome do personagem">
+                
+                <label for="statusPersonagem">Insira o status do personagem</label>
+                <input type="text" name="statusPersonagem" id="status" placeholder="Status (alive, dead, unknown)">
+            </div>
+            <button type="button" id="enviar">Enviar</button>
+        </form>
+
+        <div id="cards-container"></div>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
